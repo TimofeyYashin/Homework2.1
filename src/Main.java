@@ -9,7 +9,6 @@ public class Main {
         task7();
         task8();
     }
-
     public static void task1() {
         System.out.println("Задача 1");
         var dog = 8.0;
@@ -23,24 +22,24 @@ public class Main {
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
-        var dog1  =  dog + 4;
-        var cat1 = cat + 4;
-        var paper1 = paper + 4;
-        System.out.println(dog1);
-        System.out.println(cat1);
-        System.out.println(paper1);
+        dog  =  dog + 4;
+        cat = cat + 4;
+        paper = paper + 4;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
     }
     public static void task3(){
         System.out.println("Задача 3");
         var dog = 8.0;
         var cat = 3.6;
         var paper = 763789;
-        var dog2 = dog - 3.5;
-        var cat2 = cat - 1.6;
-        var paper2 = paper - 7639;
-        System.out.println(dog2);
-        System.out.println(cat2);
-        System.out.println(paper2);
+        dog = dog - 3.5;
+        cat = cat - 1.6;
+        paper = paper - 7639;
+        System.out.println(dog);
+        System.out.println(cat);
+        System.out.println(paper);
     }
     public static void task4(){
         System.out.println("Задача 4");
@@ -54,13 +53,13 @@ public class Main {
     public static void task5(){
         System.out.println("Задача 5");
         var frog = 3.5;
-        var frog1 = frog * 10;
-        var frog2 = frog1 / 3.5;
-        var frog3 = frog2 + 4;
+        frog = frog * 10;
+        frog = frog / 3.5;
+        frog = frog + 4;
         System.out.println(frog);
-        System.out.println(frog1);
-        System.out.println(frog2);
-        System.out.println(frog3);
+        System.out.println(frog);
+        System.out.println(frog);
+        System.out.println(frog);
     }
     public static void task6(){
         System.out.println("Задача 6");
